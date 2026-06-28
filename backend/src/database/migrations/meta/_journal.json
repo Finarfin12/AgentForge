@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1782493585530,
+      "tag": "0000_certain_vindicator",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1782555301733,
+      "tag": "0001_young_the_twelve",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1782670000000,
+      "tag": "0002_silly_agent_messages",
+      "breakpoints": true
+    }
+  ]
+}

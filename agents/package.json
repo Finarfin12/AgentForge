@@ -1,0 +1,20 @@
+{
+  "name": "agentforge-heartbeat-client",
+  "version": "1.0.0",
+  "description": "Standalone heartbeat client for AgentForge - keeps your local AI agent registered and alive",
+  "main": "dist/heartbeat-client.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/heartbeat-client.js",
+    "dev": "tsx src/heartbeat-client.ts"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.8.3",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "tsx": "^4.22.4",
+    "@types/node": "^24.0.0"
+  }
+}

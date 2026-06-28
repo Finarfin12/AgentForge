@@ -1,0 +1,11 @@
+import pg from 'pg';
+const { Client } = pg;
+const c = new Client({ connectionString: 'postgresql://postgres:password@localhost:5433/agentforge' });
+await c.connect();
+await c.query('ALTER TABLE agent_skills ADD COLUMN IF NOT EXISTS skill_id uuid REFERENCES skills(id) ON DELETE CASCADE');
+await c.query('ALTER TABLE agent_skills ADD COLUMN IF NOT EXISTS name varchar(255) DEFAULT \'\'');
+await c.query('ALTER TABLE agent_skills ADD COLUMN IF NOT EXISTS description text DEFAULT \'\'');
+await c.query('ALTER TABLE agent_skills ADD COLUMN IF NOT EXISTS endpoint varchar(500)');
+await c.query('ALTER TABLE agent_skills ADD COLUMN IF NOT EXISTS is_enabled boolean DEFAULT true');
+console.log('Fixed agent_skills table');
+await c.end();
