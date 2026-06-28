@@ -3,10 +3,10 @@
   <h1>AgentForge</h1>
   <p><b>An advanced, open-source multi-agent orchestration platform.</b></p>
   <p>
-    <a href="https://github.com/your-org/agentforge/stargazers"><img src="https://img.shields.io/github/stars/your-org/agentforge?style=flat-square&color=yellow" alt="Stars"></a>
-    <a href="https://github.com/your-org/agentforge/network/members"><img src="https://img.shields.io/github/forks/your-org/agentforge?style=flat-square&color=blue" alt="Forks"></a>
-    <a href="https://github.com/your-org/agentforge/issues"><img src="https://img.shields.io/github/issues/your-org/agentforge?style=flat-square&color=red" alt="Issues"></a>
-    <a href="https://github.com/your-org/agentforge/blob/main/LICENSE"><img src="https://img.shields.io/github/license/your-org/agentforge?style=flat-square&color=green" alt="License"></a>
+    <a href="https://github.com/Finarfin12/AgentForge/stargazers"><img src="https://img.shields.io/github/stars/Finarfin12/AgentForge?style=flat-square&color=yellow" alt="Stars"></a>
+    <a href="https://github.com/Finarfin12/AgentForge/network/members"><img src="https://img.shields.io/github/forks/Finarfin12/AgentForge?style=flat-square&color=blue" alt="Forks"></a>
+    <a href="https://github.com/Finarfin12/AgentForge/issues"><img src="https://img.shields.io/github/issues/Finarfin12/AgentForge?style=flat-square&color=red" alt="Issues"></a>
+    <a href="https://github.com/Finarfin12/AgentForge/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Finarfin12/AgentForge?style=flat-square&color=green" alt="License"></a>
   </p>
 </div>
 
@@ -42,19 +42,19 @@
 
 **Linux / macOS:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/your-org/agentforge/main/setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Finarfin12/AgentForge/main/setup.sh | bash
 ```
 
 **Windows (PowerShell):**
 ```powershell
-irm https://raw.githubusercontent.com/your-org/agentforge/main/setup.ps1 | iex
+irm https://raw.githubusercontent.com/Finarfin12/AgentForge/main/setup.ps1 | iex
 ```
 
 ### Manual Setup
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-org/agentforge.git
+git clone https://github.com/Finarfin12/AgentForge.git
 cd agentforge
 
 # 2. Copy environment file
