@@ -20,7 +20,7 @@ Built for **AI/LLM developers** who need enterprise-grade agent coordination wit
 
 ---
 
-##  For AI Developers
+##  For Developers
 
 AgentForge simplifies building sophisticated AI systems:
 
@@ -35,7 +35,6 @@ AgentForge simplifies building sophisticated AI systems:
 
 - **AI Research** — Run experiments with multiple LLM configurations
 - **Autonomous Workflows** — Chain agents for complex multi-step tasks
-- **LLM Benchmarking** — Compare agent performance across models
 - **Distributed AI** — Coordinate agents across multiple machines
 - **Custom Skill Development** — Build and share domain-specific AI capabilities
 
