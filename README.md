@@ -20,7 +20,7 @@ Built for **AI/LLM developers** who need enterprise-grade agent coordination wit
 
 ---
 
-## 🎯 For AI Developers
+##  For AI Developers
 
 AgentForge simplifies building sophisticated AI systems:
 
@@ -31,7 +31,7 @@ AgentForge simplifies building sophisticated AI systems:
 - **P2P Agent Mesh** — Direct agent-to-agent communication via WebSocket
 - **LLM Agnostic** — Works with any LLM (OpenAI, Ollama, local models, etc.)
 
-### 💡 Common Use Cases
+###  Common Use Cases
 
 - **AI Research** — Run experiments with multiple LLM configurations
 - **Autonomous Workflows** — Chain agents for complex multi-step tasks
@@ -116,7 +116,7 @@ Open **http://localhost:3000** and log in with:
 
 ---
 
-## 🚀 Getting Started with Your First Multi-Agent Task
+##  Getting Started with Your First Multi-Agent Task
 
 ### Step 1: Register Your LLM Agent
 
@@ -150,7 +150,7 @@ curl -X POST http://localhost:3002/tasks \
   }'
 ```
 
-👉 **[Full AI Developer Guide](docs/ai-developer-guide.md)**
+ **[Full AI Developer Guide](docs/ai-developer-guide.md)**
 
 ---
 
@@ -194,7 +194,7 @@ All settings are configurable via the **Settings** page in the UI or directly in
 
 ---
 
-## 📚 Documentation
+##  Documentation
 
 - **[AI Developer Guide](docs/ai-developer-guide.md)** — Everything you need to build AI systems with AgentForge
 - **[Examples](docs/examples/)** — Real-world examples and code snippets
@@ -238,27 +238,27 @@ module.exports = {
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions from the AI developer community! Whether it's:
 
-- 🛠️ **New features** for agent orchestration
-- 🎯 **New skills** to share with other developers
-- 📖 **Documentation** improvements
-- 🐛 **Bug fixes** and optimizations
-- 💡 **Ideas** for improving the platform
+- 🛠 **New features** for agent orchestration
+-  **New skills** to share with other developers
+-  **Documentation** improvements
+-  **Bug fixes** and optimizations
+-  **Ideas** for improving the platform
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
-## 📄 License
+##  License
 
 MIT
 
 ---
 
-## 🌟 Acknowledgments
+##  Acknowledgments
 
 Built with:
 - **NestJS** — Scalable Node.js backend
@@ -269,12 +269,12 @@ Built with:
 
 ---
 
-## 📞 Support & Community
+##  Support & Community
 
-- 💬 **Issues** — Found a bug? [Open an issue](https://github.com/Finarfin12/AgentForge/issues)
-- 💡 **Discussions** — Have an idea? [Start a discussion](https://github.com/Finarfin12/AgentForge/discussions)
-- ⭐ **Star us** — Show your support!
+-  **Issues** — Found a bug? [Open an issue](https://github.com/Finarfin12/AgentForge/issues)
+-  **Discussions** — Have an idea? [Start a discussion](https://github.com/Finarfin12/AgentForge/discussions)
+-  **Star us** — Show your support!
 
 ---
 
-**AgentForge: Orchestrate Your AI Agents with Confidence** 🚀
+**AgentForge: Orchestrate Your AI Agents with Confidence** 

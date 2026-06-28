@@ -163,7 +163,7 @@ export class GitHubReviewHandler {
   
   private formatComment(result: AggregatedReview): string {
     return `
-## 🤖 Automated Code Review
+##  Automated Code Review
 
 **Overall Score:** ${result.average_score}/10
 
@@ -195,7 +195,7 @@ When someone pushes to your repository:
 ## Example GitHub Comment Output
 
 ```
-🤖 Automated Code Review
+ Automated Code Review
 
 Overall Score: 7.2/10
 
@@ -206,23 +206,23 @@ Overall Score: 7.2/10
 ### Issues
 
 #### Critical Issues
-❌ SQL injection vulnerability in `database.ts:42`
+ SQL injection vulnerability in `database.ts:42`
 ```sql
 const query = `SELECT * FROM users WHERE id = ${userId}`;
 ```
 Recommendation: Use parameterized queries
 
-❌ Unhandled promise rejection in `api.ts:15`
+ Unhandled promise rejection in `api.ts:15`
 ```typescript
 fetch('/api/data').then(r => r.json());
 ```
 Recommendation: Add .catch() handler
 
 #### High Priority Issues
-⚠️ N+1 query problem in `service.ts:78`
+⚠ N+1 query problem in `service.ts:78`
 Recommendation: Implement batch loading
 
-⚠️ Missing input validation in `controller.ts:22`
+⚠ Missing input validation in `controller.ts:22`
 Recommendation: Add validation middleware
 
 ### Recommendations

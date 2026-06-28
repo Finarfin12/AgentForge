@@ -17,11 +17,11 @@ Welcome! This guide will help you build sophisticated multi-agent AI systems wit
 
 AgentForge is a **multi-agent orchestration platform** that lets you:
 
-- 🤖 **Coordinate multiple LLMs** (OpenAI, Ollama, local models, etc.)
-- 🔌 **Compose complex workflows** using agent squads and pipelines
-- 🎯 **Schedule autonomous runs** with autopilots and triggers
-- 📦 **Share capabilities** through a skill marketplace
-- 🌐 **Distribute agents** across your network with zero configuration
+-  **Coordinate multiple LLMs** (OpenAI, Ollama, local models, etc.)
+-  **Compose complex workflows** using agent squads and pipelines
+-  **Schedule autonomous runs** with autopilots and triggers
+-  **Share capabilities** through a skill marketplace
+-  **Distribute agents** across your network with zero configuration
 
 Think of it as **"Docker for AI agents"** — but instead of managing containers, you're orchestrating intelligent agents.
 
@@ -32,25 +32,25 @@ Think of it as **"Docker for AI agents"** — but instead of managing containers
 ### Problem: Multi-Agent Systems Are Hard
 
 Building AI systems with multiple agents is complex:
-- 😫 **Coordination overhead** — How do agents communicate?
-- 🔧 **Configuration hell** — Each agent needs different setup
-- 📦 **Capability sharing** — How do you reuse agent skills?
-- 🚀 **Scaling challenges** — How do you run agents on different machines?
-- 🔄 **Workflow management** — How do you chain tasks together?
+-  **Coordination overhead** — How do agents communicate?
+-  **Configuration hell** — Each agent needs different setup
+-  **Capability sharing** — How do you reuse agent skills?
+-  **Scaling challenges** — How do you run agents on different machines?
+-  **Workflow management** — How do you chain tasks together?
 
 ### Solution: AgentForge
 
-- ✅ **Agent Mesh** — Built-in P2P communication between agents
-- ✅ **Zero-Config Discovery** — Auto-find agents on your network
-- ✅ **Skills Marketplace** — Share and reuse agent capabilities
-- ✅ **Task Orchestration** — Manage complex workflows easily
-- ✅ **Distributed by Default** — Run agents anywhere
+-  **Agent Mesh** — Built-in P2P communication between agents
+-  **Zero-Config Discovery** — Auto-find agents on your network
+-  **Skills Marketplace** — Share and reuse agent capabilities
+-  **Task Orchestration** — Manage complex workflows easily
+-  **Distributed by Default** — Run agents anywhere
 
 ---
 
 ## Core Concepts
 
-### 🤖 Agent
+###  Agent
 
 An **agent** is an autonomous AI entity that:
 - Can process tasks independently
@@ -63,7 +63,7 @@ An **agent** is an autonomous AI entity that:
 - **CLI Agents** — Wrapper around command-line tools
 - **Custom Agents** — Your own logic via plugins
 
-### 👥 Squad
+###  Squad
 
 A **squad** is a group of agents working together:
 - Each agent has a role
@@ -76,7 +76,7 @@ A **squad** is a group of agents working together:
 - **Performance Reviewer** — Analyzes efficiency
 - **Security Reviewer** — Audits for vulnerabilities
 
-### 🎯 Skill
+###  Skill
 
 A **skill** is a reusable capability that agents can use:
 - Can be a function, API call, or complex workflow
@@ -89,7 +89,7 @@ A **skill** is a reusable capability that agents can use:
 - `semantic-search` — Find relevant documents
 - `summarize` — Create summaries of large texts
 
-### 🚀 Pipeline
+###  Pipeline
 
 A **pipeline** is a multi-step workflow:
 - Chain multiple agents and tasks
@@ -97,7 +97,7 @@ A **pipeline** is a multi-step workflow:
 - Run sequentially or in parallel
 - Store results for analysis
 
-### ⏰ Autopilot
+###  Autopilot
 
 An **autopilot** runs tasks automatically:
 - On schedule (cron-like)
@@ -341,7 +341,7 @@ const autopilot = {
 
 ## Best Practices for AI Developers
 
-### ✅ Do's
+###  Do's
 
 1. **Use squads for specialized roles** — Different agents for different expertise
 2. **Version your skills** — Make skills reproducible and upgradeable
@@ -349,7 +349,7 @@ const autopilot = {
 4. **Monitor performance** — Track cost, latency, and quality metrics
 5. **Cache results** — Avoid redundant LLM calls
 
-### ❌ Don'ts
+###  Don'ts
 
 1. **Don't overload agents** — Keep tasks focused
 2. **Don't skip error handling** — Agents can fail or timeout
@@ -357,10 +357,10 @@ const autopilot = {
 4. **Don't ignore costs** — Monitor API usage and spending
 5. **Don't hardcode settings** — Use environment variables
 
-### 🎯 Performance Tips
+###  Performance Tips
 
 ```typescript
-// ✅ Good: Use cheaper model for preprocessing
+//  Good: Use cheaper model for preprocessing
 const squad = {
   agents: [
     { name: 'preprocessor', model: 'gpt-3.5-turbo' },    // $0.001
@@ -368,7 +368,7 @@ const squad = {
   ]
 };
 
-// ❌ Bad: Use expensive model for everything
+//  Bad: Use expensive model for everything
 const squad = {
   agents: [
     { name: 'agent1', model: 'gpt-4' },
@@ -412,12 +412,12 @@ tail -f agents.log
 
 ## Resources
 
-- 📖 [Full Documentation](../README.md)
-- 💻 [API Reference](api-reference.md)
-- 🛠️ [Skill Development](skill-development.md)
-- 🚀 [Deployment Guide](deployment.md)
-- 🤔 [FAQ](faq.md)
+-  [Full Documentation](../README.md)
+-  [API Reference](api-reference.md)
+- 🛠 [Skill Development](skill-development.md)
+-  [Deployment Guide](deployment.md)
+-  [FAQ](faq.md)
 
 ---
 
-Happy building! 🚀
+Happy building! 
