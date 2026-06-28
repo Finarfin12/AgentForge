@@ -196,9 +196,7 @@ All settings are configurable via the **Settings** page in the UI or directly in
 
 ##  Documentation
 
-- **[AI Developer Guide](docs/ai-developer-guide.md)** — Everything you need to build AI systems with AgentForge
-- **[Examples](docs/examples/)** — Real-world examples and code snippets
-- **[GitHub Topics Guide](.github/TOPICS.md)** — How to maximize repo discoverability
+- **[Examples](docs/examples/)** 
 
 ### Examples
 
