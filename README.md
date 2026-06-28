@@ -11,6 +11,7 @@
 </div>
 
 <br />
+<img width="1906" height="1025" alt="Screenshot 2026-06-28 215040" src="https://github.com/user-attachments/assets/389abfd2-9a50-46c2-84aa-caba36f7fa95" />
 
 **AgentForge** is a powerful multi-agent orchestration suite designed for developers and researchers. It features a robust CLI spawn execution model, zero-config LAN agent discovery, an integrated skill marketplace, a hot-reloadable plugin system, and a peer-to-peer WebSocket agent mesh. Built for scale, collaboration, and ultimate flexibility — all entirely free and open source.
 
@@ -107,6 +108,7 @@ Open **http://localhost:3000** and log in with:
 ```
 
 ## Configuration
+<img width="1915" height="1030" alt="image" src="https://github.com/user-attachments/assets/f86df629-9d59-4ef3-a85b-36dcf9bbd7ef" />
 
 All settings are configurable via the **Settings** page in the UI or directly in `backend/.env`:
 
