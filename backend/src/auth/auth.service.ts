@@ -13,6 +13,7 @@ import { eq, or, sql } from 'drizzle-orm';
 import { RegisterDto } from './dto/register.dto';
 import { LoginDto } from './dto/login.dto';
 import { AuditService } from '../logs/audit.service';
+import { MailerService } from '../mailer/mailer.service';
 
 @Injectable()
 export class AuthService {
@@ -20,6 +21,7 @@ export class AuthService {
     private db: DatabaseService,
     private jwtService: JwtService,
     private auditService: AuditService,
+    private mailer: MailerService,
   ) {}
 
   async register(dto: RegisterDto) {
@@ -112,9 +114,15 @@ export class AuthService {
       .set({ resetToken: resetTokenHash, resetTokenExpiry: expiry })
       .where(eq(users.id, user.id));
 
-    // In production: send email with reset token
-    // For local dev: log the token
-    console.log(`Password reset token for ${email}: ${resetToken}`);
+    const resetUrl = `http://localhost:3000/reset-password?token=${resetToken}`;
+    await this.mailer.send({
+      to: user.email,
+      subject: 'Password Reset — AgentForge',
+      html: `<p>You requested a password reset.</p>
+<p>Click the link below to reset your password (valid for 24 hours):</p>
+<p><a href="${resetUrl}">${resetUrl}</a></p>
+<p>If you did not request this, ignore this email.</p>`,
+    });
 
     return { message: 'If that email is registered, a reset link has been sent.' };
   }

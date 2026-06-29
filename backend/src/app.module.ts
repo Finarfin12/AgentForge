@@ -27,6 +27,7 @@ import { PluginsModule } from './plugins/plugins.module';
 import { MeshModule } from './mesh/mesh.module';
 import { SettingsModule } from './settings/settings.module';
 import { ReviewsModule } from './reviews/reviews.module';
+import { MailerModule } from './mailer/mailer.module';
 
 @Module({
   imports: [
@@ -69,6 +70,7 @@ import { ReviewsModule } from './reviews/reviews.module';
     MeshModule,
     SettingsModule,
     ReviewsModule,
+    MailerModule,
   ],
   controllers: [AppController],
   providers: [AppService, { provide: APP_GUARD, useClass: ThrottlerGuard }],

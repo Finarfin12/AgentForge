@@ -167,6 +167,12 @@ npx next dev -p 3000          # Starts on port 3000
 | `MEILI_MASTER_KEY` | `masterKey` | Meilisearch API key |
 | `JWT_SECRET` | `dev-secret-change-in-production` | JWT signing secret |
 | `CORS_ORIGINS` | `http://localhost:3000` | Allowed CORS origins |
+| `SMTP_HOST` | — | SMTP server hostname (leave empty to skip email) |
+| `SMTP_PORT` | `587` | SMTP server port |
+| `SMTP_SECURE` | `false` | Use TLS for SMTP |
+| `SMTP_USER` | — | SMTP username |
+| `SMTP_PASS` | — | SMTP password |
+| `SMTP_FROM` | `noreply@agentforge.local` | Sender email address |
 
 #### Frontend (`frontend/.env.local`)
 
@@ -186,7 +192,7 @@ npx next dev -p 3000          # Starts on port 3000
 |--------|----------|------|-------------|
 | POST | `/auth/register` | Public | Register new user (email, username, password) |
 | POST | `/auth/login` | Public | Login (identifier=email/username, password) |
-| POST | `/auth/forgot-password` | Public | Request password reset email |
+| POST | `/auth/forgot-password` | Public | Request password reset (sends email if SMTP configured) |
 | POST | `/auth/reset-password` | Public | Reset password with token |
 | GET | `/auth/me` | JWT | Get current authenticated user |
 
